@@ -62,7 +62,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    height:200vh;
+    height:100vh;
     background-color: #f0f0f0;
     align-items: center;
 }
