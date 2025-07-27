@@ -21,7 +21,7 @@ A simple, responsive Tic Tac Toe (⭕❌) web game built using **HTML, CSS, and 
 
 ## 🚀 Live Demo
 
-**[🔗 Click here to play the game](https://yourusername.github.io/tic-tac-toe/)**  
+**[🔗 Click here to play the game]([https://yourusername.github.io/tic-tac-toe/](https://manogna2005.github.io/TicTacToe/))**  
 
 ---
 
