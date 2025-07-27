@@ -1,0 +1,98 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.head{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size:30px;
+}
+.cell{
+    color:white;
+}
+h1{
+    margin:20px;
+}
+.result {
+    font-family: "Dancing Script", cursive;
+    font-size:50px;
+    text-shadow: 0 0 8px black;
+}
+.cell:hover {
+  background-color: #939393;
+}
+.cell{
+    display:flex;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items:center;
+    font-size:100px;
+}
+@media(max-width:792px){
+    .cell{
+        width:200px;
+        height:200px;
+        font-size:80px;
+    }
+}
+@media(max-width:620px){
+    .cell{
+        width:150px;
+        height:150px;
+        font-size:60px;
+    }
+}
+@media(max-width:450px){
+    .cell{
+        width:145px;
+        height:145px;
+        font-size:50px;
+    }
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+.container-1{
+    display:grid;
+    width: 100%;
+    background-color: #848383;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.r1c1{
+    border-right:2px solid #333;
+    border-bottom:2px solid #333;
+}
+.r1c2{
+    border-right:2px solid #333;
+    border-bottom:2px solid #333;
+}
+.r1c3{
+    border-bottom:2px solid #333;
+}
+.r2c1{
+    border-right:2px solid #333;
+    border-bottom:2px solid #333;
+}
+.r2c2{
+    border-right:2px solid #333;
+    border-bottom:2px solid #333;
+}
+.r2c3{
+    border-bottom:2px solid #333;
+}
+.r3c1{
+    border-right:2px solid #333;
+}
+.r3c2{
+    border-right:2px solid #333;
+}
+button{
+    font-size:30px;
+}
